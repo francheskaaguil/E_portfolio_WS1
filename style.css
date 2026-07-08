@@ -3,8 +3,60 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin:10;
     padding: 0;
+    text-align: left;
 }
 h1{
-    color:rgb(77, 108, 77);
+    color: black;
     margin:0;
+    text-align: center;
+    border-style: outset;
 }
+header{
+    text-align: center;
+    border-style: outset;
+}
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    border-style: outset;
+
+}
+div p{ 
+    text-align: left;
+
+}
+h3{
+    border-style: outset;
+  }
+  .container {
+    display: flex;
+    background-color: rgb(99, 108, 118);
+  }
+  
+  .container div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+
+  }
+  .head p {
+    background-color: grey;
+    text-align: center;
+  }
+  div{
+    background-color: grey
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+  }
+  .logo{
+    font-size: 24px;
+
+  }
