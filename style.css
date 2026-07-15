@@ -1,62 +1,107 @@
-body {
-    background-color: lightgrey;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin:10;
-    padding: 0;
-    text-align: left;
-}
-h1{
-    color: black;
+body{
     margin:0;
-    text-align: center;
-    border-style: outset;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#f5f5f5;
 }
-header{
-    text-align: center;
-    border-style: outset;
+
+.navbar{
+    background:#333;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
 }
-p{
-    text-align: center;
+
+.logo img{
+    border-radius:50%;
 }
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.nav-links a:hover{
+    color:yellow;
+}
+
+.head{
+    text-align:center;
+    background:#d9d9d9;
+    padding:50px;
+}
+
+.head h1{
+    color:darkblue;
+}
+
+section{
+    padding:30px;
+}
+
 h2{
-    text-align: center;
-    border-style: outset;
-
+    text-align:center;
+    color:darkblue;
 }
-div p{ 
-    text-align: left;
 
+.about,
+.skills,
+.projects,
+.contact{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
 }
-h3{
-    border-style: outset;
-  }
-  .container {
-    display: flex;
-    background-color: rgb(99, 108, 118);
-  }
-  
-  .container div {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
 
-  }
-  .head p {
-    background-color: grey;
-    text-align: center;
-  }
-  div{
-    background-color: grey
-  }
-  .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+.project-card{
+    border:1px solid gray;
+    padding:20px;
+    border-radius:10px;
+}
 
-  }
-  .logo{
-    font-size: 24px;
+ul{
+    list-style-type:square;
+}
 
-  }
+button{
+    margin:10px;
+    padding:10px 20px;
+    border:none;
+    background:darkblue;
+    color:white;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover{
+    background:green;
+}
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+.dark-mode{
+    background:#222;
+    color:white;
+}
+
+.dark-mode .about,
+.dark-mode .skills,
+.dark-mode .projects,
+.dark-mode .contact{
+    background:#444;
+    color:white;
+}
+
+.dark-mode h2,
+.dark-mode h1,
+.dark-mode p,
+.dark-mode li{
+    color:white;
+}
