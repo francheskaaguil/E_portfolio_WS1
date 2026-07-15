@@ -3,66 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
 </head>
-<body> 
+<body>
 
 <header class="navbar">
-<div class="logo"><img src="1.avif" alt="Cheska" class="1.avif" width="50" height="50"></div>
-    <nav class="nav-links"> 
-        <a href="Home">Home</a>
-        <a href="About">About</a>
-        <a href="Skills">Skills</a>
-        <a href="Projects">Projects</a>
-        <a href="Contact">Contact</a>
-    </nav>
+    <div class="logo">
+        <img src="1.avif" alt="Francheska" width="50" height="50">
+    </div>
 
+    <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
-<div class="head">
-    <h1>Francheska Nicole Aguil</h1>
+
+<section id="home" class="head">
+    <h1 id="title">Francheska Nicole Aguil</h1>
     <p>Bachelor of Science in Information Technology</p>
     <p>Web Developer</p>
-</div>
 
-<section id="about" class="about">
-    <div class="about me">
-    <h2>About Me</h2>
-    <p>I, Francheska Nicole Aguil 3rd year student of computer studies at Holy Child Central Colleges Inc. </p>
-</div>
+    <button onclick="changeTheme()">🌙 Light/Dark Mode</button>
+    <button onclick="showInfo()">My Information</button>
 </section>
 
 <section id="about" class="about">
-    <div class="skills">
-    <h3>Skills</h3>
-       <div>Html</div>
-       <div>Python</div>
-       <div>Microsoft Word</div>
+    <h2>About Me</h2>
+    <p>
+        I am Francheska Nicole Aguil, a BSIT student at Holy Child Central Colleges, Inc.
+        I am passionate about web development and continuously learning new technologies.
+    </p>
+</section>
+
+<section id="skills" class="skills">
+    <h2>Skills</h2>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Python</li>
+        <li>Microsoft Word</li>
+    </ul>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio website created using HTML, CSS, and JavaScript.</p>
     </div>
 </section>
 
-<section id="about" class="about">
-<div class="project">
-    <h3>Projects</h3>
-</div>
-</section>
+<section id="contact" class="contact">
+    <h2>Contact</h2>
 
-<section id="about" class="about">
-<div class="contact">
-    <h3>Contact section</h3>
-    <div>
-        <p>Email: <a href="#" target="_blank">Example@gmail.com</a></p>
-        <p>Phone: 09364738671</p>
-        <p>Facebook: <a href="#" target="_blank">Francheska Nicole Aguil</a></p>
-    </div>  
-</div>
+    <p>Email: example@gmail.com</p>
+    <p>Phone: 09364738671</p>
+    <p>Facebook: Francheska Nicole Aguil</p>
 </section>
 
 <footer>
-    2026 Aguil. All Rights Reserved.
+    <p>© 2026 Francheska Nicole Aguil. All Rights Reserved.</p>
 </footer>
 
+<script src="script.js"></script>
 
-</section>
 </body>
 </html>
