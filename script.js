@@ -3,10 +3,10 @@ window.onload = function(){
     alert("Welcome to Francheska Nicole Aguil's Portfolio!");
 
     document.getElementById("title").innerHTML =
-    "Welcome to My Portfolio";
+    "Francheska Nicole E. Aguil";
 
-    document.getElementById("title").style.color = "darkred";
-    document.getElementById("title").style.fontSize = "45px";
+   
+    document.getElementById("title").style.fontSize = "50px";
 
     console.log("Portfolio Loaded Successfully!");
 }
