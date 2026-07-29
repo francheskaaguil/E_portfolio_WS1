@@ -2,10 +2,12 @@ body{
     margin:0;
     font-family:Lucida ;
     background-color:#f6f8f8;
+
+
 }
 
 .navbar{
-    background:#81745b;
+    background:#8f8f89;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -23,7 +25,7 @@ body{
 }
 
 .nav-links a:hover{
-    color:rgb(166, 248, 128);
+    color:rgb(11, 11, 11);
 }
 
 .head{
@@ -34,7 +36,7 @@ body{
 
 .head h1{
     color:#8B5E3C;
-    
+
 }
 
 section{
@@ -46,27 +48,44 @@ h2{
     text-align:left;
     color:rgb(0, 6, 5);
     border-radius:10px;
+    padding:10px;
+    
+    
+}
+
+h3{
+    color:rgb(0, 6, 5);
+    border-radius:10px;
+    padding:10px;
+    text-align:left;
 }
 
 .about,
 .skills,
 .projects,
 .contact{
-    background:rgb(232, 165, 40);
-    margin:20px;
+    background:rgb(175, 172, 170);
+    margin: 20px auto;
     padding:20px;
     border-radius:10px;
-    
+    width: 600px;
+   
 }
 
 .project-card{
-    margin:10px;
-  
+    margin:10px 0;
+    border:1px solid #100f0f;
+    padding:5px 10px;
+    border-radius:5px;
+    background:rgb(126, 120, 115);
+    text-align:left;
+
    
 }
 
 ul{
     list-style-type:square;
+    
 }
 
 button{
@@ -80,11 +99,11 @@ button{
 }
 
 button:hover{
-    background:rgb(51, 174, 51);
+    background:rgb(51, 36, 216);
 }
 
 footer{
-    background:#72725b;
+    background:#71716d;
     color:white;
     text-align:center;
     padding:15px;
@@ -94,7 +113,7 @@ footer{
     background:#222;
     color:white;
 }
-
+.dark-mode .navbar,
 .dark-mode .about,
 .dark-mode .skills,
 .dark-mode .projects,
@@ -102,7 +121,7 @@ footer{
     background:#444;
     color:rgb(255, 255, 255);
 }
-
+.dark-mode .navbar,
 .dark-mode h2,
 .dark-mode h1,
 .dark-mode p,
