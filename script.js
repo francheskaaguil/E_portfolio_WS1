@@ -24,7 +24,7 @@ function showInfo(){
         "Name: Francheska Nicole Aguil\n\n"+
         "Course: Bachelor of Science in Information Technology\n\n"+
         "Position: Web Developer\n\n"+
-        "Email: example@gmail.com\n\n"+
+        "Email: francheskaaguil8@gmail.com\n\n"+
         "Phone: 09364738671"
     );
 
